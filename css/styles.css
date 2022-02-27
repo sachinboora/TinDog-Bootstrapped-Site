@@ -1,62 +1,56 @@
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 3% 15% 7%;
 }
 
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
+}
+
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
   color: white;
 }
 
-h2{
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3{
-  font-family: "Montserrat";
-}
 /* Navigation Bar */
-
-.navbar{
+.navbar {
   padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2rem;
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding-right: 2rem;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1rem;
   font-family: "Montserrat";
   font-weight: lighter;
 }
 
-
 /* Buttons */
-.download-button{
+.download-button {
   margin-top: 4rem;
 }
 
 /* Title Image */
-.title-image{
+.title-image {
   width: 22%;
   transform: rotate(25deg);
   position: absolute;
@@ -64,113 +58,100 @@ h3{
 }
 
 /* Features Section */
-
-#features{
+#features {
   padding: 7% 15%;
   background-color: #FFFFFF;
   position: relative;
   /* z-index: 1; */
 }
 
-.feature-box{
-  text-align:center;
+.feature-box {
   padding: 5%;
 }
 
-.para{
+.feature-highlights {
+  font-size: 1.5rem;
+}
+
+.para {
   font-family: sans-serif;
   color: #8f8f8f;
 }
 
-.icon{
+.icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.icon:hover{
+.icon:hover {
   color: #ff4c68;
 }
 
-
 /* Testimonials Section */
-
-#testimonials{
-
-  text-align: center;
+#testimonials {
   background-color: #ef8172;
   color: #fff;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 15%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
 /* Press Section */
-#press{
+#press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
-
-#pricing{
+#pricing {
   padding: 100px;
-  text-align: center;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
 
-
-@media (max-width: 1028px) {
-  #title{
-    text-align: center;
-  }
-  .title-image{
-    position: static;
-    transform: rotate(0);
-    width: 45%;
-  }
-
-}
-
-
-/* Call to Action Section */
-
-#cta{
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
-  padding: 7% 15%;
-}
-
-.cta-heading{
-  font-family: "Montserrat";
+.pricing-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
 
-/* Footer Section */
-
-#footer{
-  padding: 7% 15%;
-  text-align: center;
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 45%;
+  }
 }
 
-.social-icon{
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+}
+
+.social-icon {
   margin: 20px 10px;
 }
